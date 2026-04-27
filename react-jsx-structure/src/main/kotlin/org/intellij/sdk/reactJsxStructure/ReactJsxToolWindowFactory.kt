@@ -10,7 +10,7 @@ internal class ReactJsxToolWindowFactory : ToolWindowFactory {
         project: Project,
         toolWindow: ToolWindow
     ) {
-        val toolWindowPanel = SimpleToolWindowPanel(/* vertical = */ true)
+        val toolWindowPanel = JsXmlLiteralsPanel(project)
         toolWindow.contentManager.apply {
             val toolWindowContent = factory.createContent(
                 toolWindowPanel,
