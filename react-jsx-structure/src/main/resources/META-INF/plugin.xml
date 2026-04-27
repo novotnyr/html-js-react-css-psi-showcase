@@ -10,5 +10,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="React Structure"
+                factoryClass="org.intellij.sdk.reactJsxStructure.ReactJsxToolWindowFactory" />
     </extensions>
 </idea-plugin>
