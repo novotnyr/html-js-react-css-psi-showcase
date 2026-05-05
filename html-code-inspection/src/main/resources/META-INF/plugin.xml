@@ -12,6 +12,9 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <annotator
+                language="HTML"
+                implementationClass="org.intellij.sdk.htmlCodeInspection.HeadingLevelAnnotator"/>
     </extensions>
 
 </idea-plugin>
