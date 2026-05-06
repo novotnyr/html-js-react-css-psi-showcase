@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <warning descr="Orphaned heading: <h2> has no previous heading"><h2>Orphan</h2></warning>
+    <H1>Overview</H1>
+    <p>Lorem ipsum dolor sit amet</p>
+    <div>
+        <warning descr="Incorrect heading structure: <h4> cannot follow <H1> (previous heading: 'Overview')"><h4>Technicalities</h4></warning>
+        <div>
+            <warning descr="Incorrect heading structure: <h3> cannot follow <H1> (previous heading: 'Overview')"><h3>Tech stack</h3></warning>
+        </div>
+        <warning descr="Incorrect heading structure: <h5> cannot follow <h3> (previous heading: 'Tech stack')"><h5>Details</h5></warning>
+        <warning descr="Incorrect heading structure: <h5> cannot follow <h3> (previous heading: 'Tech stack')"><h5>More details</h5></warning>
+    </div>
+</body>
+</html>
