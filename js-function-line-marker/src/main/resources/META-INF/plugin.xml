@@ -13,5 +13,8 @@
     <depends>JavaScript</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.lineMarkerProvider
+                language="JavaScript"
+                implementationClass="org.intellij.sdk.jsFunctionLineMarker.TopLevelFunctionLineMarkerProvider" />
     </extensions>
 </idea-plugin>
