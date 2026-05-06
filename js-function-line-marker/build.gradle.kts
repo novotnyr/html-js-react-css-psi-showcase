@@ -8,7 +8,7 @@ plugins {
 dependencies {
     testImplementation("junit:junit:4.13.2")
     intellijPlatform {
-        intellijIdea("2025.3.4.1")
+        intellijIdea("2026.1")
         testFramework(TestFrameworkType.Platform)
     }
 }
