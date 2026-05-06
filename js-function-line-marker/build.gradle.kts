@@ -10,5 +10,6 @@ dependencies {
     intellijPlatform {
         intellijIdea("2026.1")
         testFramework(TestFrameworkType.Platform)
+        bundledPlugins("JavaScript")
     }
 }
