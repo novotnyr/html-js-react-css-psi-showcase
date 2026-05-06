@@ -1,13 +1,12 @@
 <idea-plugin>
     <id>org.intellij.sdk.js-function-line-marker</id>
 
-    <name>Js-function-line-marker</name>
+    <name>JavaScript Top-Level Function Line Marker</name>
 
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
 
     <description><![CDATA[
-        Enter short description for your plugin here.<br>
-        <em>most HTML tags may be used</em>
+        Shows line markers for top-level JavaScript functions.
         ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
