@@ -11,4 +11,12 @@
 
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
+    <actions>
+        <action
+                id="com.intellij.sdk.cssPsi.CssPsiAction"
+                class="com.intellij.sdk.cssPsi.CssPsiAction"
+                text="Show CSS selectors">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
