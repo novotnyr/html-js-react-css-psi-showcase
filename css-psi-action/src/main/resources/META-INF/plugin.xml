@@ -1,10 +1,9 @@
 <idea-plugin>
     <id>org.intellij.sdk.css-psi-action</id>
-    <name>Css-psi-action</name>
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <name>CSI PSI Action</name>
+    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
     <description><![CDATA[
-        Enter short description for your plugin here.<br>
-        <em>most HTML tags may be used</em>
+        Shows an action that parses a CSS file and handles its PSI.
         ]]></description>
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
