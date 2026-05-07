@@ -5,7 +5,10 @@
     <description><![CDATA[
         Shows an action that parses a CSS file and handles its PSI.
         ]]></description>
+
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.css</depends>
+
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
 </idea-plugin>

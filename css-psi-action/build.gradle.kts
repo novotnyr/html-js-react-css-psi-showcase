@@ -9,6 +9,8 @@ dependencies {
     intellijPlatform {
         intellijIdea("2026.1")
         testFramework(TestFrameworkType.Platform)
+        bundledPlugin("com.intellij.css")
     }
+
     testImplementation("junit:junit:4.13.2")
 }
