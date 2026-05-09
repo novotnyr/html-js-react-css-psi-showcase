@@ -6,6 +6,7 @@
         Shows an action that parses an internal CSS stylesheet in HTML and handles its PSI.
         ]]></description>
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.css</depends>
 
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
