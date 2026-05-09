@@ -1,10 +1,9 @@
 <idea-plugin>
     <id>org.intellij.sdk.css-in-html-action</id>
-    <name>Css-in-html-action</name>
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <name>PSI for Internal CSS Stylesheet in HTML</name>
+    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
     <description><![CDATA[
-        Enter short description for your plugin here.<br>
-        <em>most HTML tags may be used</em>
+        Shows an action that parses an internal CSS stylesheet in HTML and handles its PSI.
         ]]></description>
     <depends>com.intellij.modules.platform</depends>
 
