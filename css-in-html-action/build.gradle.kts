@@ -6,9 +6,9 @@ plugins {
 }
 
 dependencies {
-    testImplementation(libs.junit)
     intellijPlatform {
         intellijIdea("2025.3.4.1")
         testFramework(TestFrameworkType.Platform)
     }
+    testImplementation("junit:junit:4.13.2")
 }
