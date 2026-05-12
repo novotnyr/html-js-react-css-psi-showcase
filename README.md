@@ -17,7 +17,7 @@ This repository collects five standalone IntelliJ Platform plugin samples focuse
 All plugins target IntelliJ IDEA `2026.1`.
 In this Platform version, the demonstrated features are [available in the free tier](https://blog.jetbrains.com/idea/2026/03/js-ts-free-support/), without subscription.
 
-Samples that work with CSS or JavaScript declare the bundled `com.intellij.css` or `JavaScript` plugin dependencies in their own build files.
+Samples that work with CSS or JavaScript declare the `com.intellij.css` or `JavaScript` plugin dependencies in their own build files.
 
 ## Structure
 Each sample is a self-contained Gradle project with its own `README.md`, `plugin.xml`, and Gradle wrapper. The repository root groups them with a Gradle composite build for convenient browsing.
